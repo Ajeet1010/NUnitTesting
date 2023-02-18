@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("-----  NUnit Testing  -----");
-            Console.WriteLine("$ to be returned by vending machine: ");
-            VendingMachine vendingMachine = new VendingMachine();
-            vendingMachine.Currency();
+            Console.WriteLine("Using Georgian Calender finding weekday on the given date ");
+            WeekDays weekDays = new WeekDays();
+            WeekDays.Calender();
         }
     }
 }
